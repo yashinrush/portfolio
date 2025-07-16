@@ -5,9 +5,7 @@ Inspired by terminal UIs and retro coding vibes, this portfolio lets you explore
 
 ---
 
-## ⚡ Live Demo
 
-🔗 [Visit Now](https://your-portfolio-url.com) — *(Replace with your actual deployed link)*
 
 ---
 
