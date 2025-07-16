@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yash's Terminal Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="terminal-logo.png" id="terminal-toggle-btn" alt="Terminal Logo" style="width: 56px; height: 56px; display: none; position: fixed; left: 32px; top: 32px; z-index: 200; cursor: pointer; border-radius: 25%; box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37); background: #23272e; border: 2px solid #33ff33;" />
+  <div class="terminal-window" role="main" aria-label="Terminal Portfolio">
+    <div class="terminal-header">
+      <div class="window-controls">
+        <span class="window-dot dot-red"></span>
+        <span class="window-dot dot-yellow"></span>
+        <span class="window-dot dot-green"></span>
+      </div>
+      <span class="terminal-title" id="terminal-title">Yash@Portfolio:~</span>
+    </div>
+    <div class="terminal" id="terminal">
+      <div class="line"><span class="prompt" id="prompt">C:\Users\Yash&gt;</span><input class="input" id="input" autofocus autocomplete="off" aria-label="Type a command" /></div>
+    </div>
+  </div>
+  <audio id="beep" src="https://cdn.pixabay.com/audio/2022/07/26/audio_124bfae7b2.mp3" preload="auto"></audio>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
